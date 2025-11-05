@@ -22,8 +22,9 @@ dependencies:
   path_provider: ^2.1.3
   share_plus: ^12.0.1
 
-  # Security
-  flutter_windowmanager: ^0.2.0
+  # Security & Window Management (local fixed version)
+  flutter_windowmanager:
+    path: plugins/flutter_windowmanager
   pointycastle: ^4.0.0
   crypto: ^3.0.3
   asn1lib: ^1.5.0

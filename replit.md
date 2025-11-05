@@ -1,8 +1,8 @@
-# Fighter Doctors PDF - Secure PDF Editor
+# Fighter Doctors PDF Pro - Professional Study PDF Editor
 
 ## Overview
 
-This is a Flutter-based Android application that provides secure PDF editing, encryption, and sharing capabilities. The app uses advanced Android-specific security features including Android Keystore for RSA/AES encryption.
+This is a Flutter-based Android application that provides **professional PDF editing for students** with secure encryption and sharing capabilities. The app combines advanced study tools (smart highlighting, flashcards, notes export) with military-grade security using Android Keystore for RSA/AES encryption.
 
 **Important:** This project is designed for Android mobile devices and cannot run as a traditional web application in Replit due to its dependency on native Android features (Android Keystore, platform channels, etc.).
 
@@ -35,12 +35,22 @@ Since this is an Android-specific application, Replit is configured to serve a *
 
 ### Key Features
 
-1. **PDF Editing**: Annotate PDFs with drawings and text
-2. **Encryption**: Military-grade RSA/AES encryption
-3. **Secure Storage**: Uses Android Keystore for key management
-4. **Sharing**: Share encrypted PDFs with PEM key files
-5. **Screen Protection**: Prevents screenshots and screen recording
-6. **One-Time Use**: Optional single-use file encryption
+**Study Features (Pro):**
+1. **Smart Highlighting**: 5-color system (Critical, Important, Review, Reference, Note)
+2. **Study Notes**: Organized annotations with page references
+3. **Flashcards**: Auto-generate flashcards from highlights
+4. **Progress Tracking**: Monitor study progress with statistics
+5. **Advanced Search**: Search across all content and annotations
+6. **Export Notes**: Export all notes as Markdown for review
+7. **Bookmarks**: Quick access to important pages
+8. **Backup/Restore**: Save and restore all annotations
+
+**Security Features:**
+9. **Encryption**: Military-grade RSA 2048-bit + AES 256-bit
+10. **Secure Storage**: Uses Android Keystore for key management
+11. **Encrypted Sharing**: Share encrypted PDFs with PEM key files
+12. **Screen Protection**: Prevents screenshots and screen recording
+13. **One-Time Use**: Optional single-use file encryption
 
 ### Native Integrations
 
